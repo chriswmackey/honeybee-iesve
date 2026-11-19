@@ -9,8 +9,8 @@ from ladybug.commandutil import process_content_to_output
 from ladybug.projectinfo import ProjectInfo
 from honeybee.model import Model
 from honeybee.typing import clean_string
-from honeybee_ies.writer import model_to_gem as model_to_gem_str
-from honeybee_ies.reader import model_from_gem as model_from_gem_str
+from honeybee_iesve.writer import model_to_gem as model_to_gem_str
+from honeybee_iesve.reader import model_from_gem as model_from_gem_str
 
 _logger = logging.getLogger(__name__)
 
